@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "aws-sns-slack"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-19fmemkth0sa7"
+s3_prefix = "aws-sns-slack"
+region = "ap-southeast-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+image_repositories = ["SnsSlackFunction=338796919357.dkr.ecr.ap-southeast-1.amazonaws.com/awssnsslack29c21d07/snsslackfunctione0febfc2repo"]

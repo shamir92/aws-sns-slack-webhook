@@ -9,7 +9,7 @@
           "MessageId": "95df01b4-ee98-5cb9-9903-4c221d41eb5e",
           "TopicArn": "arn:aws:sns:us-east-1:123456789012:ExampleTopic",
           "Subject": "example subject",
-          "Message": "{\"message\": \"SNS Test\", \"slack_webhook_url\": \"https://hooks.slack.com/services/some-webhook\"}",
+          "Message": "{\"message\": \"SNS Test\", \"slack_webhook_url\": \"https://hooks.slack.com/services/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\"}",
           "Timestamp": "1970-01-01T00:00:00.000Z",
           "SignatureVersion": "1",
           "Signature": "EXAMPLE",
